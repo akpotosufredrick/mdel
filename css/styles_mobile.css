@@ -1,0 +1,36 @@
+html, body {height: 130%;}
+
+body{width:100%;font-size:1em;margin:0;font-family:TreBuchet MS;}
+img{display:block;border:none;}
+
+#menu a{color:#00bfff;}
+#menu h1 img {width: 25%;margin: 0.1em auto;background: #000;}#menu h1 {margin: 0px;}
+#menu ul {margin: 0;list-style-type: none;padding: 0;text-align: center;width:100%;display:block;}
+#menu {width:100%;padding: 0.5em;background: #000;position: fixed !important;position:absolute;bottom: 0;}
+#menu li {display: inline-block;margin: 0.2em 0;}
+
+li a{color:#00bfff;display:block;}
+li a:hover,li.cur a{color:#fff}
+
+div#cont {padding: 1em;background: rgba(255,255,255,0.5);margin-bottom: 6em;}
+#cont img {width: 10em;margin: 1em auto;}
+.about img {width: 100% !important;}
+
+#bg div {position: fixed;width: 200%;height: 200%;left: -50%;top: 0;z-index: -3;}
+#bg td{vertical-align:middle;text-align:center}
+#bg img{min-height:50%;min-width:50%;margin:0 auto}
+
+.product{text-align:center;}
+
+a, a:visited, a:hover{color:#000;}
+a:hover{text-decoration:none;}
+
+.form-group {border: 1px solid #00bfff;margin-bottom: 1em;padding:0.3em !important;}
+.form-group input{width: 98%;height: 3em;font-size: larger;}
+.form-group textarea {width: 98%;height: 7em;font-size: larger;}
+input.submit.btn.btn-primary {padding: 1em;background: #00bfff;color: #fff;}
+div.row.name-missing {padding: 1em !important;background: #000;color: #fff;}
+
+#cboxTitle {font-weight: bold;font-size:0.8em;bottom:2em !important;position: relative !important;;}
+#cboxContent , #cboxMiddleLeft, #cboxMiddleRight{padding-bottom: 2.5em;}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {outline-style:none;}
